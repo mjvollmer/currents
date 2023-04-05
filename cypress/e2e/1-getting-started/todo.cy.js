@@ -116,7 +116,7 @@ describe('example to-do app', () => {
       cy.get('.todo-list li')
         .should('have.length', 1)
         .first()
-        .should('have.text', 'Pay electric bill')
+        .should('have.text', 'Pay electricc bill')
 
       cy.contains('Walk the dog').should('not.exist')
     })
